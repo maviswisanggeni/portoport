@@ -81,6 +81,11 @@ nav .nav-bg .dropdown-menu .dropdown-menu__items ul {
     cursor: pointer;
 }
 
+nav .nav-bg .dropdown-menu .dropdown-menu__items ul a {
+    color: #DADDD8;
+    text-decoration: none;
+}
+
 nav .nav-bg .dropdown-menu .dropdown-menu__items ul li {
     list-style: none;
     line-height: normal;
@@ -90,6 +95,11 @@ nav .nav-bg .dropdown-menu .dropdown-menu__items ul li {
     opacity: 0.6;
     cursor: pointer;
     transition: .5s;
+}
+
+nav .nav-bg .dropdown-menu .dropdown-menu__items ul li a {
+    color: #DADDD8;
+    text-decoration: none;
 }
 
 nav .nav-bg .dropdown-menu .dropdown-menu__items ul li:hover {
@@ -129,6 +139,11 @@ nav .nav-bg .btn-upload-porto {
     transition: .2s;
 }
 
+nav .nav-bg .btn-upload-porto a {
+    color: #000000;
+    text-decoration: none;
+}
+
 nav .nav-bg .btn-upload-porto:hover {
     background-color: #1C1C1C;
     color: #FFFFFF;
@@ -142,6 +157,11 @@ nav .nav-bg .btn-be-pro {
     color: #FFFFFF;
     transition: .2s;
     overflow: hidden;
+}
+
+nav .nav-bg .btn-be-pro a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 nav .nav-bg .btn-be-pro .content {
@@ -158,6 +178,8 @@ nav .nav-bg .btn-be-pro .content {
 }
 
 nav .nav-bg .btn-be-pro .content a {
+    color: #FFFFFF;
+    text-decoration: none;
     margin-bottom: 25px;
 }
 
