@@ -117,6 +117,7 @@ nav .nav-bg .search-bar input {
     padding: 0 30px;
     border-radius: 10px;
     background-color: rgba(28, 28, 28, 0.1);
+    border: none;
 }
 
 nav .nav-bg .search-bar input::placeholder {
@@ -146,6 +147,10 @@ nav .nav-bg .btn-upload-porto a {
 
 nav .nav-bg .btn-upload-porto:hover {
     background-color: #1C1C1C;
+    color: #FFFFFF;
+}
+
+nav .nav-bg .btn-upload-porto:hover a {
     color: #FFFFFF;
 }
 
