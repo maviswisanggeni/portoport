@@ -1,0 +1,74 @@
+.card-product {
+    width: fit-content;
+    height: fit-content;
+    margin-right: 35px;
+    }
+    .card-product:last-child {
+        margin-right: 0;
+    }
+    .card-image {
+        width: 380px;
+        height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        }
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: .5s ease;
+    }
+    .card-image:hover img {
+        transform: scale(1.05);
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+    .card-description {
+        width: 100%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+        .user-profile {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            }
+            .user-profile img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            object-position: center;
+            cursor: pointer;
+            }
+            .user-profile h4 {
+            font-size: 20px;
+            font-weight: 600;
+            width: 165px;
+            margin-left: 18px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+            }
+        .card-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            }
+            .card-icon img {
+                width: 25px;
+                height: 25px;
+                color: #000;
+                opacity: 0.3;
+            }
+            .card-info p {
+                font-size: 20px;
+                font-weight: 600;
+                margin-left: 3px;
+                color: #000;
+                opacity: 0.3;
+}
