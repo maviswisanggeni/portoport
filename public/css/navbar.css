@@ -34,6 +34,7 @@ nav .nav-bg .dropdown-menu {
     border-radius: 10px;
     color: #000000; 
     transition: .3s;
+    z-index: 9999;
 }
 
 nav .nav-bg .dropdown-menu.show {
