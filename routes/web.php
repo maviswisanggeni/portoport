@@ -16,6 +16,7 @@ use App\Http\Controllers\RegisterController;
 */
 
 
+
 Route::get('/home', function () {
     return view('home');
 })->middleware('auth');
@@ -29,3 +30,4 @@ Route::group(['prefix' => 'session'], function () {
     
     
 });
+
