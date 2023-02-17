@@ -1,0 +1,77 @@
+/* profile */
+.container-profile-col{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 179px;
+}
+.container-profile-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container-profile-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+.container-btn-profile{
+    border: 1px solid #ECEBE4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 143px;
+    height: 49px;
+    margin-right: 16px;
+}
+.container-btn-set{
+    border: 1px solid #ECEBE4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 49px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 1;
+}
+.profile{
+    width: 11%;
+    border-radius: 50%;
+    margin-right: 48px;
+}
+.font-nama{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.font-kelas{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.font-asal{
+    font-size: 25px;
+    font-weight: 200;
+    color: #6C6C6C;
+}
+.btn-settings{
+    color: black;
+    width: 35px;
+    height: 35px;
+}
+.btn-edit{
+    font-size: 20px;
+    font-weight: 500;
+}
