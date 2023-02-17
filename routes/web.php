@@ -70,3 +70,4 @@ Route::group(['prefix' => 'session'], function () {
     Route::post('/logout', [LoginController::class, 'logout']);
 });
 
+});
