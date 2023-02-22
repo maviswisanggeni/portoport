@@ -57,6 +57,7 @@ Route::group(['prefix' => 'likedproduct'], function () {
 Route::get('/', function () {
     return view('welcome');
 
+});
 
 Route::get('/home', function () {
     return view('home');
@@ -68,6 +69,4 @@ Route::group(['prefix' => 'session'], function () {
     Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
     Route::post('/logins', [LoginController::class, 'auth']);
     Route::post('/logout', [LoginController::class, 'logout']);
-});
-
 });
