@@ -1,0 +1,293 @@
+/* title{
+   width: 600px;
+   height: 600px;
+   background-color: aqua;  
+}
+
+h1{
+    font-size: 40px;  
+}
+
+h2{
+    font-size: 70px;
+}
+
+.image-3d{
+    bottom: 150px;
+    right: 0;
+    position: relative;
+} */
+body {
+    padding: 80px;
+} 
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 40px;
+    width: 400px;
+}
+
+.title h2 {
+    font-size: 70px;
+}
+
+.title h3 {
+    font-size: 30x;
+    width: 600px;
+}
+
+.circleBase {
+    border-radius: 50%;
+  }
+  
+.circle1 {
+    z-index: -1;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 700px;
+    left: 300px;
+    background: #00C2FF;
+  }
+
+.circle2 {
+    z-index: -1;
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    top: 800px;
+    left: 60px;
+    background: #00C2FF;
+  }
+
+.title2 {
+    margin-top: 500px;
+}
+
+.title span {
+    color: #00C2FF;
+}
+
+.title2 span {
+    color: #ffffff;
+}
+
+.title2 h1 {
+    position: absolute;
+    font-size: 50px;
+    top: 920px;
+    left: 80px;
+}
+
+.image-3d2{
+    position: absolute;
+    right: 30px;
+    top: 1200px;
+}
+
+.title3 h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 1200px;
+    left: 90px;
+}
+
+.title3 h3 {
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 900px;
+    top: 1300px;
+    left: 90px;
+}
+
+.product {
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    width: 100%;
+    margin-top: 110px;
+}
+
+
+
+.wave h1 {
+    font-size: 60px;
+    color: #ffffff;
+    background-color: black;
+    padding-right: 500px;
+    padding-left: 90px;
+}
+
+.wave h2 {
+    padding-top: 50px;
+    padding-bottom: 700px;
+    color: #ffffff;
+    background-color: black;
+    padding-right: 850px;
+    padding-left: 90px;
+}
+
+.wave svg {
+    display: block;
+    width: 100%;
+}
+
+.imageexample1 {
+    position: absolute;
+    right: 840px;
+    top: 800px;
+}
+
+.imageexample2 {
+    position: absolute;
+    right: 1080px;
+    top: 800px;
+}
+
+.imageexample3 {
+    position: absolute;
+    right: 120px;
+    top: 500px;
+}
+
+.imageexample4 {
+    position: absolute;
+    right: 120px;
+    top: 800px;
+}
+
+.pricing span {
+    color: #00C2FF;
+}
+
+.pricing {
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+}
+
+.pricing h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.payswitchbtn {
+    margin-top: 200px;
+    padding: 0 450px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 288px;
+    height: 70px;
+    background: #00C2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.rectangle2 {
+    width: 288px;
+    height: 70px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.rectangle h1 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rectangle2 h1 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: black;
+}
+
+.package-container {
+    margin-top: 200px;
+    padding: 0 50px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.package-container .package-box {
+    width: 414px;
+    height: 674px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .package-title {
+     text-align: center;
+     margin-top: 50px;
+} */
+
+.package-description {
+    padding: 20px 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.package-description:last-child {
+    padding-bottom: 20px 0px;
+}
+
+.btn-package {
+    width: 213px;
+    height: 77px;
+    background-color: #00C2FF;
+    border-radius: 20px;
+}
+
+.btn-package h3 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* .btn-package {
+    width: 213px;
+    height: 77px;
+    left: 1069px;
+    top: 4091px;
+    background: #00C2FF;
+    border-radius: 40px;
+} */
