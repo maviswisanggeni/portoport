@@ -65,6 +65,11 @@
                 color: #000;
                 opacity: 0.3;
             }
+            .card-info img {
+                width: 25px;
+                height: 25px;
+                opacity: 0.2;
+            }
             .card-info p {
                 font-size: 20px;
                 font-weight: 600;

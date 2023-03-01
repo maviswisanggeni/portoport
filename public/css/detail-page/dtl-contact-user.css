@@ -1,0 +1,38 @@
+.dtl-contact-user {
+    width: 100%;
+    height: fit-content;
+    padding: 0 80px;
+    /* background-color: aquamarine; */
+    }
+    .dtl-contact-user .dashed {
+        /* width: 20%; */
+        /* border: none;
+        height: 1px;
+        background: #000;
+        background: repeating-linear-gradient(90deg,#000,#000 20px,transparent 20px,transparent 40px); */
+        border: 1px solid #0000000C;
+    }
+    .dtl-contact-user .contact-user-title {
+        display: flex;
+        margin: 45px 0 20px 0;
+        }
+        .dtl-contact-user .contact-user-title h3 {
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    .dtl-contact-user .contact-user-email {
+        display: flex;
+        }
+        .dtl-contact-user .contact-user-email p {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .dtl-contact-user .contact-user-email .email-user {
+            margin-left: 5px;
+            }
+            .dtl-contact-user .contact-user-email .email-user a {
+                color: #FF000F;
+                text-decoration: none;
+            }
+

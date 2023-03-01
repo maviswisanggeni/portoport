@@ -1,0 +1,49 @@
+.side-menu {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    right: 80px;
+    }
+    .side-menu .box {
+        width: 50px;
+        height: 50px;
+        background-color: #EEF0F2;
+        border: 1px solid #E0E0E0;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+        transition: .5s;
+    }
+    .side-menu .box:hover:first-child {
+        background-color: #EEF0F2;
+    }
+    .side-menu .box:hover {
+        background-color: #ebebeb;
+    }
+    .side-menu .box:first-child {
+        border: none;
+        z-index: 10;
+    }
+    .side-menu .box:last-child {
+        margin-bottom: 0;
+    }
+    .side-menu .box:last-child img {
+        filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg) brightness(97%) contrast(103%);
+    }
+    .side-menu .btn-comment {
+        transform: translateY(-70px);
+    }
+    .side-menu .btn-share {
+        transform: translateY(-140px);
+    }
+    .side-menu .btn-info {
+        transform: translateY(-210px);
+    }
+    .side-menu .btn-heart {
+        transform: translateY(-280px);
+}

@@ -1,0 +1,48 @@
+@import url('dtl-profile-user.css');
+@import url('dtl-side-menu.css');
+@import url('dtl-contact-user.css');
+@import url('dtl-more-porto.css');
+@import url('dtl-recomended-porto.css');
+
+.detail-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    padding: 80px;
+    }
+    .detail-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+        position: relative;
+    }
+    .detail-content .dtl-content-img {
+        width: 1000px;
+        height: 750px;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 80px 0;
+    }
+    .detail-content .dtl-content-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .detail-content .dtl-content-desc {
+        width: 1000px;
+        height: fit-content;
+        text-align: justify;
+        margin-bottom: 100px;
+    }
+
+    .detail-content .dtl-content-desc p {
+        font-size: 20px;
+        font-weight: 500;
+}

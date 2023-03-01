@@ -12,11 +12,11 @@
             </div>
             <div class="dropdown-menu__items">
                 <ul><a href="#">Categories</a>
-                    <li><a href="#">Animation</a></li>
-                    <li><a href="#">Ilustration</a></li>
-                    <li><a href="#">Mobile</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#animation-porto">Animation</a></li>
+                    <li><a href="#ilustration-porto">Ilustration</a></li>
+                    <li><a href="#mobile-porto">Mobile</a></li>
+                    <li><a href="#typography-porto">Typography</a></li>
+                    <li><a href="#web-porto">Web Design</a></li>
                 </ul>
                 <ul><a href="#">Discover</a></ul>
                 <ul><a href="#">For You</a></ul>

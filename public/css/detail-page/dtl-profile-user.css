@@ -1,0 +1,58 @@
+.detail-profile-user {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .dtl-profile img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 20px;
+    }
+    .dtl-user {
+        margin-right: 60px;
+    }
+        .dtl-user h3 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .dtl-user .dtl-user-info {
+            display: flex;
+            flex-direction: row;
+        }
+        .dtl-user .dtl-user-info p {
+            font-size: 20px;
+            font-weight: 400;
+            margin-right: 15px;
+        }
+        .dtl-user .dtl-user-info li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .btn-dtl-like-porto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            height: 40px;
+            background-color: #00C2FF;
+            color: #fff;
+            border-radius: 10px;
+            }
+            .btn-dtl-like-porto .dtl-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+                filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(105%) contrast(102%);
+            }
+            .btn-dtl-like-porto p {
+                font-size: 20px;
+                font-weight: 400;
+}

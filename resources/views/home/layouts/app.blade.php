@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/card-product.css">
     <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="{{ asset('css/btn-popup.css') }}">
     {{-- add icon --}}
     <link rel="shortcut icon" href="icons/x-icon.svg" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
@@ -23,10 +24,15 @@
     <div class="main-container">
         @yield('main')
     </div>
+
+    <div class="btn-popup" onclick="window.scrollTo(0, 0)">
+        <h1>Go Top</h1>
+    </div>
     
     @include('components.footer')
     <script src="scripts/navbar.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/products.js"></script>
+    <script src="{{ asset('scripts/btn-popup.js') }}"></script>
 </body>
 </html>

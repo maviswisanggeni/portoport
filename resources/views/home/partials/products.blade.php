@@ -1,4 +1,4 @@
-<div class="product-container">
+<div class="product-container" id="mobile-porto">
     <div class="product">
         <div class="product-info">
             <h2>Mobile</h2>
@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<div class="product-container">
+<div class="product-container" id="web-porto">
     <div class="product">
         <div class="product-info">
             <h2>Web Design</h2>
@@ -26,7 +26,7 @@
     </div>
 </div>
 
-<div class="product-container">
+<div class="product-container" id="animation-porto">
     <div class="product">
         <div class="product-info">
             <h2>Animation</h2>
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="product-container">
+<div class="product-container" id="ilustration-porto">
     <div class="product">
         <div class="product-info">
             <h2>Ilustration</h2>
@@ -54,7 +54,7 @@
     </div>
 </div>
 
-<div class="product-container">
+<div class="product-container" id="typography-porto">
     <div class="product">
         <div class="product-info">
             <h2>Typography</h2>

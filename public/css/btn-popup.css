@@ -1,0 +1,44 @@
+.btn-popup {
+    position: fixed;
+    overflow: hidden;
+    bottom: 50px;
+    left: calc(50% - 80px);
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 25px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 100px;
+    transition: .8s cubic-bezier(0.19, 1, 0.22, 1);
+    animation: goToTop 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: pointer;
+}
+
+.btn-popup:hover {
+    background-color: #2A2A2A;
+}
+
+.btn-popup h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@keyframes goToTop {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes goToBottom {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
