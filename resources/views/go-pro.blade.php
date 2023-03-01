@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
 </head>
 <body>
-     <div class="container">
-        <div class="title">
+     <div class="gopro-container">
+        <div class="gopro-title">
             <h1>Show your work to the <span>world</span> with</h1>
             <h2>Port<span>o</span>Port Pro, and ProPlus!</h2>
             <h3>With Pro you can show your 5 best product at PortoPort, but with Pro Plus? sure you can show more with no limitation!</h3>
@@ -20,22 +20,29 @@
         </div>
      </div>
 
-    <div class="title2">
-      <div class="circleBase circle1"></div>
-      <div class="circleBase circle2"></div>
-      <h1><span>Things you</span> can get with Pro and Pro Plus</h1>
+     
+
+     <div class="pro-plus">
+     <div class="circle1"> 
+     </div>
+
+     <div class="circle2">
+     </div>
+
+     <div class="text-circle">
+            <h1><span>Things you</span> can get with pro and pro plus</h1>
         </div>
 
-    <div class="info">
-        <div class="title3">
+     <div class="clients">
+        <div class="clients-title">
         <h1>Better way to introduce your self to clients</h1>
-        <h3>Exclusive to Pro and Pro Plus subscribers, Pitch gives you a whole new way to introduce yourself to prospective clients right from your Portolians profile with your very own personalized video.</h3>
-        </div>
-
-    <div class="image-3d2">
-            <img src="{{ asset('images/person2.png') }}">
-        </div>
-        </div>
+        <h2>Exclusive to Pro and Pro Plus subscribers, Pitch gives you a whole new way to introduce yourself to prospective clients right from your <span>Portolians</span> profile with your very own personalized video.</h2>
+     </div>  
+     
+     <div class="ireng">
+     <img src="{{ asset('images/person2.png') }}">
+     </div>
+     </div>
 
         <div class="product">
         <div class="wave upper">
@@ -123,5 +130,6 @@
                 </ul>
             </div>
         </div>
+         
 </body>
 </html>
