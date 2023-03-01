@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('components.footer');
 });
+
+Route::get('/payment/pro', function () {
+    return view('payment.payment-method-pro');
+});
+
+Route::get('/payment/pro+', function () {
+    return view('payment.payment-method-pro-plus');
+});

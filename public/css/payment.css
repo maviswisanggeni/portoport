@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.payment-method {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    background-color: white;
+}
+
+.payment-method img {
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.payment-method p {
+    width: 400px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    padding-left: 5%;
+}
+
+.payment-method-container {
+    display: flex;
+    background-color: white;
+    color: #fff;
+    width: 1540px;
+    height: 1294px;
+}
+
+.pro {
+    height: 554px;
+    width: 350px;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    overflow: hidden;
+    color: black;
+}
+
+.pro .pro-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 70px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+.pro .pro-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.pro .pro-payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.pro .get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 85px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+}
+
+.pro .get-started button {
+    width: 250px;
+    height: 60px;
+    background-color: #00C2FF;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.pro .get-started button:hover {
+    background-color: #00B2FF;
+    color: white;
+    transition: 0.3s;
+}
+
+.pro .pro-fitur {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    font-weight: 600;
+    background-color: white;
+}
+
+.pro .pro-fitur p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.payment-option {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    height: 554px;
+    width: 700px;
+    font-weight: 600;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.credit-card {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    font-size: 20px;
+    height: 70px;
+    width: 700px;
+    font-weight: 600;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid #E0E0E0;
+}
+
+.credit-card p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.credit-card img {
+    margin-left: 450px;
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.credit-card:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.credit-card:hover img {
+    filter: invert(100%);
+}
+
+.credit-card:hover p {
+    color: white;
+}
+
+
+.digital-wallet {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    font-size: 20px;
+    height: 70px;
+    width: 700px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #E0E0E0;
+}
+
+.digital-wallet p {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.digital-wallet img {
+    margin-left: 430px;
+    padding-top: 20px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.digital-wallet:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+.digital-wallet:hover img {
+    filter: invert(100%);
+}
+
+.digital-wallet:hover p {
+    color: white;
+}
